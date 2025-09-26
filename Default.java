@@ -59,8 +59,8 @@ public class Default extends JPanel {
         icon = new ImageIcon(newimg);
         button.setIcon(icon);
 
-        Dimension size = button.getPreferredSize();
-        button.setBounds(10, 250, size.width, size.height);
+        // Dimension size = button.getPreferredSize();
+        button.setBounds(10, 250, 156, 234);
         setLayout(null);
 
         button.setBorder(BorderFactory.createEmptyBorder());
@@ -91,8 +91,8 @@ public class Default extends JPanel {
         ruleIcon = new ImageIcon(newImg);
         ruleButt.setIcon(ruleIcon);
 
-        Dimension size =  ruleButt.getPreferredSize();
-        ruleButt.setBounds(950, 10, size.width, size.height);
+        // Dimension size =  ruleButt.getPreferredSize();
+        ruleButt.setBounds(950, 10, 86, 46);
         setLayout(null);
         ruleButt.setBorder(BorderFactory.createEmptyBorder());
         ruleButt.addActionListener(new ActionListener() {
@@ -119,8 +119,8 @@ public class Default extends JPanel {
         goIcon = new ImageIcon(newImage);
         goButt.setIcon(goIcon);
 
-        Dimension size = goButt.getPreferredSize();
-        goButt.setBounds(900, 325, size.width, size.height);
+        // Dimension size = goButt.getPreferredSize();
+        goButt.setBounds(900, 325, 129, 69);
         setLayout(null);
         goButt.setBorder(null);
 
@@ -158,8 +158,8 @@ public class Default extends JPanel {
         cardCon = new ImageIcon(newImage);
         card.setIcon(cardCon);
 
-        Dimension size = card.getPreferredSize();
-        card.setBounds(width, depth, size.width, size.height);
+        // Dimension size = card.getPreferredSize();
+        card.setBounds(width, depth, 156, 234);
         setLayout(null);
         card.setBorder(BorderFactory.createEmptyBorder());
 
@@ -291,8 +291,8 @@ public class Default extends JPanel {
             back = new ImageIcon(newImage);
             oppoHand[i].setIcon(back);
 
-            Dimension size = oppoHand[i].getPreferredSize();
-            oppoHand[i].setBounds(wid, dep, size.width, size.height);
+            // Dimension size = oppoHand[i].getPreferredSize();
+            oppoHand[i].setBounds(wid, dep, 78, 117);
             setLayout(null);
             oppoHand[i].setBorder(BorderFactory.createEmptyBorder());
 
@@ -325,8 +325,8 @@ public class Default extends JPanel {
         image = new ImageIcon(newImage);
         card.setIcon(image);
 
-        Dimension size = card.getPreferredSize();
-        card.setBounds(width, depth, size.width, size.height);
+        // Dimension size = card.getPreferredSize();
+        card.setBounds(width, depth, 130, 195);
         setLayout(null);
         card.setBorder(BorderFactory.createEmptyBorder());
 
