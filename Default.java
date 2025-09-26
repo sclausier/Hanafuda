@@ -62,6 +62,8 @@ public class Default extends JPanel {
         // Dimension size = button.getPreferredSize();
         button.setBounds(10, 250, 156, 234);
         setLayout(null);
+        button.setContentAreaFilled(false);
+        button.setFocusPainted(false);
 
         button.setBorder(BorderFactory.createEmptyBorder());
         button.setToolTipText("Drawing stack");
@@ -94,6 +96,9 @@ public class Default extends JPanel {
         // Dimension size =  ruleButt.getPreferredSize();
         ruleButt.setBounds(950, 10, 86, 46);
         setLayout(null);
+        ruleButt.setContentAreaFilled(false);
+        ruleButt.setFocusPainted(false);
+
         ruleButt.setBorder(BorderFactory.createEmptyBorder());
         ruleButt.addActionListener(new ActionListener() {
             @Override
@@ -123,6 +128,8 @@ public class Default extends JPanel {
         goButt.setBounds(900, 325, 129, 69);
         setLayout(null);
         goButt.setBorder(null);
+        goButt.setContentAreaFilled(false);
+        goButt.setFocusPainted(false);
 
         goButt.addActionListener(new ActionListener() {
             @Override
@@ -161,7 +168,11 @@ public class Default extends JPanel {
         // Dimension size = card.getPreferredSize();
         card.setBounds(width, depth, 156, 234);
         setLayout(null);
+        card.setContentAreaFilled(false);
+        card.setFocusPainted(false);
+
         card.setBorder(BorderFactory.createEmptyBorder());
+
 
         card.addActionListener(new ActionListener() {
             @Override
@@ -294,6 +305,8 @@ public class Default extends JPanel {
             // Dimension size = oppoHand[i].getPreferredSize();
             oppoHand[i].setBounds(wid, dep, 78, 117);
             setLayout(null);
+
+
             oppoHand[i].setBorder(BorderFactory.createEmptyBorder());
 
             add(oppoHand[i]);
@@ -328,6 +341,9 @@ public class Default extends JPanel {
         // Dimension size = card.getPreferredSize();
         card.setBounds(width, depth, 130, 195);
         setLayout(null);
+        card.setContentAreaFilled(false);
+        card.setFocusPainted(false);
+        
         card.setBorder(BorderFactory.createEmptyBorder());
 
         card.addActionListener(new ActionListener() {
